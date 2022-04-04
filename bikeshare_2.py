@@ -235,7 +235,7 @@ def user_stats(df, city):
         print('Youngest user was born: ' + max_year[:4])
         print('Most common year of birth is: ' + count_year[:4])
     else:
-        print('There is no birth year available for ' + city + '!')
+        print('There is no birthyear available for ' + city + '!')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -263,7 +263,7 @@ def raw_data(df):
             print('Displaying rows ' + str(frow) + '-' +
                   str(rows) + ' of ' + str(rows) + ':')
             print(df[frow:rows])
-            print('\nYou have reaced the end of the dataset!')
+            print('\nYou have reached the end of the dataset!')
             break
 
 
