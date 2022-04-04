@@ -14,3 +14,4 @@ bikeshare_2.py
 
 ### Credits
 https://www.javatpoint.com/git-clone
+https://stackoverflow.com/questions/14753603/shortcuts-for-git-commands
